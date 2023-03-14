@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="../css/style.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kalam&display=swap" rel="stylesheet">
+     <script src="https://kit.fontawesome.com/f4be90e436.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav>
+        <ul>
+          <li><a href="../index.html">Home</a></li>
+          <li class="notbutton">|</li>
+          <li><a href="about.html">About</a></li>
+          <li class="notbutton">|</li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <header>
+        <h1 class="hicon"><i class="fa-regular fa-envelope"></i></h1>
+        <h1 class="nothome">Contact</h1>
+        <h1 class="hicon"><i class="fa-regular fa-envelope"></i></h1>
+    </header>
+    
+<section class="form">
+    <form action="https://formspree.io/f/mqknrgqk" method="post">
+        <fieldset>
+        <label for="firstname">First Name</label>
+            <input type="text" id="firstname" name="firstname" placeholder="Enter your first name">
+        <label for="lastname">Last Name</label>
+            <input type="text" id="lastname" name="lastname"  placeholder="Enter your last name">
+        <label for="email">Email</label>
+             <input type="email" id="email" name="email"  placeholder="Enter your email please">
+        <label for="comment">Tell me more..</label>
+            <textarea id="comment" name="comment"  placeholder="Add your comment or tell me more about you.."></textarea>
+        <label for="wherefrom">Where are you from?</label>
+            <select id="wherefrom" name="wherefrom">
+                <option selected>select form the list...</option>
+                <option value="is">Israel</option>
+                <option value="us">US</option>
+                <option value="eu">EU</option>
+                <option value="gb">GB</option>
+                <option value="as">Asia</option>
+                <option value="af">Africa</option>
+                <option value="au">Australia</option>
+                <option value="other">other</option>
+            </select>
+        </fieldset>
+        <button type="submit">Submit!</button>
+   </form>
+</section>
+<footer>
+    <p>This page was built using: </p>
+    <p class="jslangA">Unchanged</p>
+    <p> and </p>
+    <p class="jslangLast">Unchanged</p>
+  </footer>
+      <script src="../js/footer.js">
+  </script>
+</body>
+</html>
